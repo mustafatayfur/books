@@ -5,8 +5,6 @@ import "./BookList.css"
 import Book from "./Book";
 import BookContext from "../contexts/BookContext";
 
-
-
 class BookList extends React.Component {
 
   static contextType = BookContext;
